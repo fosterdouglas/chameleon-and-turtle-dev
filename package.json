@@ -1,0 +1,22 @@
+{
+  "name": "chameleon-and-turtle",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "nuxt generate && echo chameleon-and-turtle.com > ./dist/CNAME && node deploy.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.4.3",
+    "gh-pages": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "eslint": "^8.40.0",
+    "sass": "^1.62.1"
+  }
+}
