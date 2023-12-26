@@ -1,7 +1,7 @@
 <template>
   <Head>
     <Link rel="stylesheet" herf="https://use.typekit.net/ndn5jbk.css"></Link>
-    <Title>The Chameleon and The Rainbow-Shell Turtle</Title>
+    <Title>House in the Trees </Title>
     <Body>
       <NuxtPage />
     </Body>

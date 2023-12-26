@@ -1,14 +1,21 @@
 <template>
   <main class="mt-5">
     <div id="app" class="container-fluid py-5">
-      <h1 class="text-center">House</h1>
-      <h1 class="text-center">in the Trees</h1>
-      <hr class="w-50 mx-auto my-4" />
-      <p class="text-center">Coming soon!</p>
+      <h3 class="text-center">Draft 01</h3>
+      <a href="./drafts/draft01/house-in-the-trees-draft-01.pdf"
+        ><div class="text-center">House in the Trees - Draft 01</div></a
+      >
+      <a
+        href="./drafts/draft01/house-in-the-trees-draft-01(spread).pdf"
+        class="text-center"
+        ><div class="text-center">
+          House in the Trees - Draft 01 (spread)
+        </div></a
+      >
+      <br />
 
-      <!-- <div class="book">
-        <h1>House<br />in the Trees</h1>
-      </div> -->
+      <h3 class="text-center">Audio</h3>
+      <p class="text-center">Coming soon!</p>
     </div>
   </main>
 </template>
@@ -18,17 +25,26 @@
 </script>
 
 <style lang="scss">
-h1 {
+h1,
+h2,
+h3 {
   font-family: gelica, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
-  line-height: 0.9;
 }
 
 p {
   font-family: gelica, sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+
+a {
+  color: #3b8fd6;
+
+  &:hover {
+    color: #2c6a9e;
+  }
 }
 
 body {
@@ -79,6 +95,7 @@ body {
     margin: 0px;
     line-height: 1.1;
   }
+
   p {
     padding-top: 5px;
     font-size: 13px;
