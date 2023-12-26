@@ -2,11 +2,11 @@
   <main class="mt-5">
     <div id="app" class="container-fluid py-5">
       <h3 class="text-center">Draft 01</h3>
-      <a href="./drafts/draft01/house-in-the-trees-draft-01.pdf"
+      <a href="/drafts/draft01/house-in-the-trees-draft-01.pdf"
         ><div class="text-center">House in the Trees - Draft 01</div></a
       >
       <a
-        href="./drafts/draft01/house-in-the-trees-draft-01(spread).pdf"
+        href="/drafts/draft01/house-in-the-trees-draft-01(spread).pdf"
         class="text-center"
         ><div class="text-center">
           House in the Trees - Draft 01 (spread)
