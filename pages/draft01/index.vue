@@ -3,14 +3,19 @@
     <div id="app" class="container-fluid py-5">
       <h3 class="text-center">Draft 01</h3>
       <a href="/drafts/draft01/house-in-the-trees-draft-01.pdf"
-        ><div class="text-center">House in the Trees - Draft 01</div></a
+        ><div class="text-center">House in the Trees – Draft 01 (PDF)</div></a
       >
       <a
         href="/drafts/draft01/house-in-the-trees-draft-01(spread).pdf"
         class="text-center"
         ><div class="text-center">
-          House in the Trees - Draft 01 (spread)
+          House in the Trees – Draft 01 (PDF spread)
         </div></a
+      >
+      <a
+        href="/drafts/draft01/house-in-the-trees-draft-01.epub"
+        class="text-center"
+        ><div class="text-center">House in the Trees – Draft 01 (EPUB)</div></a
       >
       <br />
 
@@ -33,7 +38,8 @@ h3 {
   font-style: normal;
 }
 
-p {
+p,
+a {
   font-family: gelica, sans-serif;
   font-weight: 300;
   font-style: normal;
