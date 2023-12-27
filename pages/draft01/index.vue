@@ -1,16 +1,13 @@
 <template>
-  <main class="mt-5">
-    <div id="app" class="container-fluid py-5">
-      <h3 class="text-center">Draft 01</h3>
+  <div><h1 class="text-center mt-5 pt-4">House in the Trees</h1></div>
+
+  <div class="mt-5">
+    <div id="app" class="container-fluid p-3">
+      <h2 class="text-center">Draft 01</h2>
+      <br />
+      <h3 class="text-center">Text</h3>
       <a href="/drafts/draft01/house-in-the-trees-draft-01.pdf"
         ><div class="text-center">House in the Trees – Draft 01 (PDF)</div></a
-      >
-      <a
-        href="/drafts/draft01/house-in-the-trees-draft-01(spread).pdf"
-        class="text-center"
-        ><div class="text-center">
-          House in the Trees – Draft 01 (PDF spread)
-        </div></a
       >
       <a
         href="/drafts/draft01/house-in-the-trees-draft-01.epub"
@@ -18,11 +15,13 @@
         ><div class="text-center">House in the Trees – Draft 01 (EPUB)</div></a
       >
       <br />
+      <br />
 
       <h3 class="text-center">Audio</h3>
       <p class="text-center">Coming soon!</p>
+      <br />
     </div>
-  </main>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -30,7 +29,11 @@
 </script>
 
 <style lang="scss">
-h1,
+h1 {
+  font-family: gelica, sans-serif;
+  font-weight: 600;
+}
+
 h2,
 h3 {
   font-family: gelica, sans-serif;

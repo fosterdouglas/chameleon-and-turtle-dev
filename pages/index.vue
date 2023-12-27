@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-5">
+  <div class="mt-5">
     <div id="app" class="container-fluid py-5">
       <h1 class="text-center">House</h1>
       <h1 class="text-center">in the Trees</h1>
@@ -10,7 +10,7 @@
         <h1>House<br />in the Trees</h1>
       </div> -->
     </div>
-  </main>
+  </div>
 </template>
 
 <script setup lang="ts">
