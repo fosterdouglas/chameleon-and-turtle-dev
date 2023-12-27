@@ -1,19 +1,25 @@
 <template>
-  <div class="mt-5">
-    <div id="app" class="container-fluid py-5">
-      <h1 class="text-center">House</h1>
-      <h1 class="text-center">in the Trees</h1>
-      <hr class="w-50 mx-auto my-4" />
-      <p class="text-center">Coming soon!</p>
+  <div><h1 class="text-center mt-5 pt-4">House in the Trees</h1></div>
 
-      <!-- <div class="book">
-        <h1>House<br />in the Trees</h1>
-      </div> -->
-      <div class="text-center">
-        <NuxtLink to="/draft02" class="small"
-          >Link to most recent draft</NuxtLink
-        >
-      </div>
+  <div class="mt-5">
+    <div id="app" class="container-fluid p-3">
+      <h2 class="text-center">Draft 02</h2>
+      <br />
+      <h3 class="text-center">Text</h3>
+      <a href="/drafts/draft02/house-in-the-trees-draft-02.pdf"
+        ><div class="text-center">House in the Trees – Draft 02 (PDF)</div></a
+      >
+      <a
+        href="/drafts/draft02/house-in-the-trees-draft-02.epub"
+        class="text-center"
+        ><div class="text-center">House in the Trees – Draft 02 (EPUB)</div></a
+      >
+      <br />
+      <br />
+
+      <h3 class="text-center">Audio</h3>
+      <p class="text-center">Coming soon!</p>
+      <br />
     </div>
   </div>
 </template>
@@ -26,8 +32,13 @@
 h1 {
   font-family: gelica, sans-serif;
   font-weight: 600;
+}
+
+h2,
+h3 {
+  font-family: gelica, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  line-height: 0.9;
 }
 
 p,
@@ -93,6 +104,7 @@ body {
     margin: 0px;
     line-height: 1.1;
   }
+
   p {
     padding-top: 5px;
     font-size: 13px;
